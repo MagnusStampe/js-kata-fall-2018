@@ -3,9 +3,24 @@ body {
   padding: 0;
 }
 
+article {
+  background-color: #99d;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+  width: 250px;
+  border-radius: 20px;
+}
+
+article img {
+  display: block;
+  margin: 0 auto;
+}
+
 #products {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #modal_container {
@@ -23,6 +38,12 @@ body {
 
 #modal_window {
   max-width: 80vw;
+  padding: 2em;
+  background-color: rgba(50, 50, 100, 0.9);
+  color: #eee;
+  border-radius: 30px;
+  position: fixed;
+  top: 2vh;
 }
 
 .hidden {
